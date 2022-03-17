@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DEVinBank
 {
-    public class ContaPoupanca
+    public class ContaPoupanca: Conta
     {
+        public ContaPoupanca PoupancaFacil { get; set; }
     }
 }

@@ -8,8 +8,12 @@ namespace DEVinBank
 {
     public class Cliente
     {
-        public string Nome { get; set; }
-        public string CPF { get; set; }
+        public string Name { get; set; }
+        public int CPF { get; set; }
         public string Endereco { get; set; }
+        public int Agencia { get; set; }
+
+
+        public Cliente() { }
     }
 }

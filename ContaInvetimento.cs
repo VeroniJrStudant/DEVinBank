@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DEVinBank
 {
-    public class ContaInvetimento
+    public class ContaInvetimento: Conta
     {
+        public ContaInvetimento RendaFixa { get; private set; }
+
     }
 }

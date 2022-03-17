@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DEVinBank
 {
-    public class ContasCorrente
+    public class ContasCorrente 
     {
+     
     }
 }
